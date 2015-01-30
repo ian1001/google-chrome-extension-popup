@@ -1,0 +1,48 @@
+body {
+	width:400px;
+	height:500px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	padding:5px 5px 5px 0;
+}
+textarea {
+width:385px;
+min-height: 50px;
+overflow-y: hidden;
+resize:none; border:none; background:#eee;
+opacity:0.9;
+}
+textarea:focus, textarea:active { 
+opacity:1; 
+resize:both; 
+border:1px solid #000; 
+}
+.section {
+padding:5px 0px 5px 0;
+}
+#set{
+width: 20px;
+height:20px;
+right: 0px;
+cursor: pointer;
+position:absolute;
+vertical-align: middle;
+text-align:center;
+}
+#add{
+width: 20px;
+cursor: pointer;
+}
+.section .close{
+float: right;
+display:none;
+vertical-align: middle;
+cursor:pointer;
+}
+.setup{
+display:none;
+padding:5px 0px 5px 0;
+margin-top:5px;
+margin-bottom:5px;
+}
+

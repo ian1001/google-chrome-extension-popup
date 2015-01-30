@@ -1,0 +1,18 @@
+{
+"manifest_version" : 2,
+"name": "Notextension",
+"version": "0.1",
+"background": {
+	"page" : "background.html",    
+	"js": ["background.js"],
+    "run_at": "document_start" 
+},
+"permissions": [
+	"storage"
+],
+"browser_action": {
+   "default_icon": "icon.png", 
+   "default_title": "Notextension",      
+   "default_popup": "background.html"       
+}
+}
